@@ -13,7 +13,7 @@ I am not an expert in python. Feel free to leave me some comments!
 |[04. Secure Container](https://adventofcode.com/2019/day/4)|[here](/day4.py)|
 |[05. Sunny with a Chance of Asteroids](https://adventofcode.com/2019/day/5)|[here](/day5.py)|
 |[06. Universal Orbit Map](https://adventofcode.com/2019/day/6)|[here](/day6.py)|
-|[07](https://adventofcode.com/2019/day/7)|-|
+|[07. Amplification Circuit](https://adventofcode.com/2019/day/7)|[here](/day7.py)|
 |[08](https://adventofcode.com/2019/day/8)|-|
 |[09](https://adventofcode.com/2019/day/9)|-|
 |[10](https://adventofcode.com/2019/day/10)|-|
