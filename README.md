@@ -14,7 +14,7 @@ I am not an expert in python. Feel free to leave me some comments!
 |[05. Sunny with a Chance of Asteroids](https://adventofcode.com/2019/day/5)|[here](/day5.py)|
 |[06. Universal Orbit Map](https://adventofcode.com/2019/day/6)|[here](/day6.py)|
 |[07. Amplification Circuit](https://adventofcode.com/2019/day/7)|[here](/day7.py)|
-|[08](https://adventofcode.com/2019/day/8)|-|
+|[08. Space Image Format](https://adventofcode.com/2019/day/8)|[here](/day8.py)|
 |[09](https://adventofcode.com/2019/day/9)|-|
 |[10](https://adventofcode.com/2019/day/10)|-|
 |[11](https://adventofcode.com/2019/day/11)|-|
