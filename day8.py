@@ -35,10 +35,8 @@ f.close()
 with open('day8-data.txt') as f:
     line = f.readline()
     ix = 0
-    max_0 = 2147483641
     wide = 25
     tall = 6
-    ans = 0
     final = ['2' for i in range(wide*tall)]
 
     while ix < len(line):
@@ -48,8 +46,8 @@ with open('day8-data.txt') as f:
         elif line[ix] == '1' and final[m] == '2':
             final[m] = '1'
         ix += 1
+
     ix = 0
-    g= ''
     for i in range(tall):
         k = ''
         for j in range(wide):
