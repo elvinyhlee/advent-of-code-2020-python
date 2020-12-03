@@ -16,7 +16,7 @@ def part2(nums):
 with open('day1-data.txt') as f:
     inputs = [
         int(line)
-        for line in f
+        for line in f.read().splitlines()
     ]
     print(part1(inputs))
     print(part2(inputs))
