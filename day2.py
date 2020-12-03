@@ -25,7 +25,7 @@ def part2(lines):
 with open('day2-data.txt') as f:
     inputs = [
         line
-        for line in f
+        for line in f.read().splitlines()
     ]
     print(part1(inputs))
     print(part2(inputs))
