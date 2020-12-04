@@ -33,10 +33,10 @@ class EyeColor(Enum):
     OTH = 'oth'
 
 
-def validate_number_range(value: str, max_yr: int, min_yr: int,) -> bool:
+def validate_number_range(value: str, max_num: int, min_num: int,) -> bool:
     if value.isdigit():
-        byr = int(value)
-        return max_yr >= byr >= min_yr
+        num = int(value)
+        return max_num >= num >= min_num
     else:
         return False
 
