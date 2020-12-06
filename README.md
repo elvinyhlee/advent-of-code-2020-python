@@ -10,3 +10,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 3: Toboggan Trajectory](https://adventofcode.com/2020/day/3)|[here](/day3.py)|
 |[Day 4: Passport Processing](https://adventofcode.com/2020/day/4)|[here](/day4.py)|
 |[Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)|[here](/day5.py)|
+|[Day 6: Custom Customs](https://adventofcode.com/2020/day/6)|[here](/day6.py)|
