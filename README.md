@@ -12,3 +12,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 5: Binary Boarding](https://adventofcode.com/2020/day/5)|[here](/day5.py)|
 |[Day 6: Custom Customs](https://adventofcode.com/2020/day/6)|[here](/day6.py)|
 |[Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)|[here](/day7.py)|
+|[Day 8: Handheld Halting](https://adventofcode.com/2020/day/8)|[here](/day8.py)|
