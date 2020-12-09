@@ -1,4 +1,4 @@
-def get_first_invalid_num(nums, preamble_len):
+def get_first_invalid_num(nums: list[int], preamble_len: int) -> int:
     for index, num in enumerate(nums):
         if index >= preamble_len:
             check = False
@@ -14,23 +14,28 @@ def get_first_invalid_num(nums, preamble_len):
     return -1
 
 
-def get_continuous_set_that_sum_to_target(nums, target):
+def get_continuous_set_that_sum_to_target(nums: list[int], target: int) -> list[int]:
     sum_of_set = 0
     left_ix = 0
     right_ix = 0
 
     # sliding window solution
-    while (left_ix <= right_ix) and (right_ix < len(nums)):
+    while left_ix <= right_ix < len(nums):
         next_num = nums[right_ix]
+
         if sum_of_set + next_num < target:
             sum_of_set += next_num
             right_ix += 1
+
         elif sum_of_set + next_num == target:
             return nums[left_ix: right_ix + 1]
+
         else:
-            while (sum_of_set + next_num > target) and (left_ix < right_ix):
+            while sum_of_set + next_num > target:
                 sum_of_set -= nums[left_ix]
                 left_ix += 1
+
+    return []
 
 
 def part1(nums):
