@@ -13,3 +13,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 6: Custom Customs](https://adventofcode.com/2020/day/6)|[here](/day6.py)|
 |[Day 7: Handy Haversacks](https://adventofcode.com/2020/day/7)|[here](/day7.py)|
 |[Day 8: Handheld Halting](https://adventofcode.com/2020/day/8)|[here](/day8.py)|
+|[Day 9: Encoding Error](https://adventofcode.com/2020/day/9)|[here](/day9.py)|
