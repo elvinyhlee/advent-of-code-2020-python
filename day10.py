@@ -2,11 +2,11 @@ from collections import Counter
 
 
 def part1(nums):
-    last_jolt = 0
-    diffs = [0, 0, 0]
-
     jolts = sorted(nums)
     jolts.append(jolts[-1] + 3)
+
+    last_jolt = 0
+    diffs = [0, 0, 0]
 
     for jolt in jolts:
         diffs[jolt - last_jolt - 1] += 1
