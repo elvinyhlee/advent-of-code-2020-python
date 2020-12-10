@@ -6,13 +6,13 @@ def part1(nums):
     jolts.append(jolts[-1] + 3)
 
     last_jolt = 0
-    diffs = [0, 0, 0]
+    diffs = [0, 0, 0, 0]
 
     for jolt in jolts:
-        diffs[jolt - last_jolt - 1] += 1
+        diffs[jolt - last_jolt] += 1
         last_jolt = jolt
 
-    return diffs[0] * diffs[2]
+    return diffs[1] * diffs[3]
 
 
 def part2(nums):
@@ -36,4 +36,3 @@ with open('day10-data.txt') as f:
 
     print(part1(inputs))
     print(part2(inputs))
-
