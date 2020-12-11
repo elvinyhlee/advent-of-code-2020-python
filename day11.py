@@ -18,9 +18,9 @@ def number_of_occupied_immediately_adjacent_seats(layout: list[str], row_ix: int
     count = 0
     row_len = len(layout)
     col_len = len(layout[row_ix])
-    for row_dir, column_dir in directions:
+    for row_dir, col_dir in directions:
         rix = row_ix + row_dir
-        cix = col_ix + column_dir
+        cix = col_ix + col_dir
         if (0 <= rix < row_len) and (0 <= cix < col_len) and (layout[rix][cix] == OCCUPIED_SEAT):
             count += 1
     return count
@@ -30,9 +30,9 @@ def number_of_occupied_first_next_seats(layout: list[str], row_ix: int, col_ix: 
     count = 0
     row_len = len(layout)
     col_len = len(layout[row_ix])
-    for row_dir, column_dir in directions:
+    for row_dir, col_dir in directions:
         rix = row_ix + row_dir
-        cix = col_ix + column_dir
+        cix = col_ix + col_dir
         while (0 <= rix < row_len) and (0 <= cix < col_len):
             if layout[rix][cix] == EMPTY_SEAT:
                 break
@@ -40,7 +40,7 @@ def number_of_occupied_first_next_seats(layout: list[str], row_ix: int, col_ix: 
                 count += 1
                 break
             rix += row_dir
-            cix += column_dir
+            cix += col_dir
     return count
 
 
@@ -96,3 +96,4 @@ with open('day11-data.txt') as f:
 
     print(part1(inputs))
     print(part2(inputs))
+
