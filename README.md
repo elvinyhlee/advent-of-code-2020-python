@@ -16,3 +16,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 9: Encoding Error](https://adventofcode.com/2020/day/9)|[here](/day9.py)|
 |[Day 10: Adapter Array](https://adventofcode.com/2020/day/10)|[here](/day10.py)|
 |[Day 11: Seating System](https://adventofcode.com/2020/day/11)|[here](/day11.py)|
+|[Day 12: Rain Risk](https://adventofcode.com/2020/day/12)|[here](/day12.py)|
