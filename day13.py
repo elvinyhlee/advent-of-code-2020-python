@@ -1,15 +1,6 @@
 def modular_multiplicative_inverse(a: int, m: int) -> int:
-    # ref: https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
-    if m == 1:
-        return 0
-
-    m0, y, x = m, 0, 1
-    while a > 1:
-        q = a // m
-        a, m = m, a % m
-        x, y = y, x - q * y
-
-    return x + m0 if x < 0 else x
+    # ref: https://docs.python.org/3/whatsnew/3.8.html
+    return pow(a, -1, m)
 
 
 def chinese_remainder_theorem_solver(divisors_and_remainders: list) -> int:
