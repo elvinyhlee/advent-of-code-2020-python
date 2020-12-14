@@ -16,7 +16,7 @@ class Decoder:
                 elif mask == 'X':
                     self.mask_x_positions.append(ix)
 
-    def decode(self, value: int, overwrite_with_0: bool, overwrite_with_1: bool, x_is_float: bool) -> int or list[int]:
+    def decode(self, value: int, overwrite_with_0: bool, overwrite_with_1: bool, x_is_float: bool) -> list[int]:
         decoded_value = value
 
         if overwrite_with_0:
@@ -48,7 +48,7 @@ def extract_address_and_value(data: str) -> (int, int):
     return address, value
 
 
-def run(lines, part):
+def run(lines: list[str], part: int) -> int:
     memory = {}
     decoder = Decoder()
 
