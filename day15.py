@@ -1,4 +1,4 @@
-def play(starting_nums, stop_at: int):
+def play(starting_nums: list[int], stop_at: int) -> int:
     mem = {}
     for ix, num in enumerate(starting_nums):
         mem[num] = (-1, ix+1)  # (previous, latest)
