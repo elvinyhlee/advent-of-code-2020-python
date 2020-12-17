@@ -60,7 +60,7 @@ def part2(data):
                     for l in range(24):
                         count_active = 0
                         for z in itertools.product([0, 1, -1], repeat=4):
-                            if not(z[0] == (0, 0, 0, 0))\
+                            if not(z == (0, 0, 0, 0))\
                                     and (0 <= i + z[0] <= 23) \
                                     and (0 <= j + z[1] <= 23) \
                                     and (0 <= k + z[2] <= 23) \
