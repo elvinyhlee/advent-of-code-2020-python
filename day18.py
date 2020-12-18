@@ -34,7 +34,7 @@ def perform_advance_operation(stack: list, num: int, close_bracket: bool) -> lis
             if s != '*':  # only "*" and digits are in the target stack
                 num *= int(s)
 
-    # Perform "+" operation
+    # Perform "+" operations
     while stack:
         if stack[-1] in '(*':
             break
