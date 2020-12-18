@@ -22,3 +22,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 15: Rambunctious Recitation](https://adventofcode.com/2020/day/15)|[here](/day15.py)|
 |[Day 16: Ticket Translation](https://adventofcode.com/2020/day/16)|[here](/day16.py)|
 |[Day 17: Conway Cubes](https://adventofcode.com/2020/day/17)|[here](/day17.py)|
+|[Day 18: Operation Order](https://adventofcode.com/2020/day/18)|[here](/day18.py)|
