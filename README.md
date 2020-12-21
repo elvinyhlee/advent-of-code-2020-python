@@ -25,3 +25,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 18: Operation Order](https://adventofcode.com/2020/day/18)|[here](/day18.py)|
 |[Day 19: Monster Messages](https://adventofcode.com/2020/day/19)|[coming out](/day19.py)|
 |[Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)|[here](/day20.py)|
+|[Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)|[here](/day21.py)|
