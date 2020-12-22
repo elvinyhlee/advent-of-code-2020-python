@@ -26,3 +26,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 19: Monster Messages](https://adventofcode.com/2020/day/19)|[coming out](/day19.py)|
 |[Day 20: Jurassic Jigsaw](https://adventofcode.com/2020/day/20)|[here](/day20.py)|
 |[Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)|[here](/day21.py)|
+|[Day 22: Crab Combat](https://adventofcode.com/2020/day/22)|[here](/day22.py)|
