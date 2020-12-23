@@ -6,7 +6,6 @@ def part1(cups):
     cups = copy.deepcopy(cups)
     current = None
     cups_len = len(cups)
-    cups_max = max(cups)
 
     for i in range(100):
         # 1. Find current cup
@@ -21,9 +20,9 @@ def part1(cups):
             cups.remove(p)
 
         # 3. Find destination cup
-        destination = current - 1 or cups_max
+        destination = current - 1 or cups_len
         while destination in picked_up:
-            destination = destination - 1 or cups_max
+            destination = destination - 1 or cups_len
         destination_ix = cups.index(destination)
 
         # 4. Rearrange the cups
