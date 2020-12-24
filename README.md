@@ -28,3 +28,4 @@ This repository contains my solutions to [Advent of Code 2020](https://adventofc
 |[Day 21: Allergen Assessment](https://adventofcode.com/2020/day/21)|[here](/day21.py)|
 |[Day 22: Crab Combat](https://adventofcode.com/2020/day/22)|[here](/day22.py)|
 |[Day 23: Crab Cups](https://adventofcode.com/2020/day/23)|[here](/day23.py)|
+|[Day 24: Lobby Layout](https://adventofcode.com/2020/day/24)|[here](/day24.py)|
